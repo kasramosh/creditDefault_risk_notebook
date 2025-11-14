@@ -1,12 +1,12 @@
-# Credit Risk Prediction Project
+## Credit Risk Prediction Project
 
 A comprehensive machine learning project for predicting credit card defaults using various classification algorithms.
 
-## Overview
+### Overview
 
 This project applies machine learning techniques to predict credit card defaults using the [Default of Credit Card Clients Dataset](https://www.kaggle.com/uciml/default-of-credit-card-clients-dataset). The goal is to build models that can identify customers at risk of defaulting on their credit card payments, which is crucial for financial institutions to manage risk effectively.
 
-## Dataset
+### Dataset
 
 The dataset contains 30,000 examples with 24 features, including:
 - **Demographic features**: Age, sex, education, marriage status
@@ -15,7 +15,7 @@ The dataset contains 30,000 examples with 24 features, including:
 - **Bill amounts**: Bill statement amounts for the past 6 months (BILL_AMT1 to BILL_AMT6)
 - **Payment amounts**: Amount of previous payments (PAY_AMT1 to PAY_AMT6)
 
-## Project Structure
+### Project Structure
 
 The project follows a complete machine learning workflow:
 
@@ -30,7 +30,7 @@ The project follows a complete machine learning workflow:
 5. **Model Interpretation**: SHAP values analysis to understand feature importance
 6. **Evaluation**: Performance evaluation on held-out test set
 
-## Key Results
+### Key Results
 
 - **Best Model**: XGBoost
 - **Final Test F1 Score**: 0.4662
@@ -38,7 +38,7 @@ The project follows a complete machine learning workflow:
 
 The dataset exhibits class imbalance (approximately 78% non-defaults, 22% defaults), making F1 score an appropriate metric that balances precision and recall.
 
-## Technologies Used
+### Technologies Used
 
 - Python
 - pandas
@@ -47,7 +47,7 @@ The dataset exhibits class imbalance (approximately 78% non-defaults, 22% defaul
 - SHAP (for model interpretation)
 - matplotlib & seaborn (for visualization)
 
-## Getting Started
+### Getting Started
 
 1. Clone the repository
 2. Install required dependencies:
@@ -57,7 +57,7 @@ The dataset exhibits class imbalance (approximately 78% non-defaults, 22% defaul
 3. Download the dataset from [Kaggle](https://www.kaggle.com/uciml/default-of-credit-card-clients-dataset) and place it in the `data/` directory
 4. Open and run the Jupyter notebook `hw5.ipynb`
 
-## Features
+### Features
 
 - Comprehensive exploratory data analysis
 - Feature engineering with domain knowledge
@@ -66,7 +66,7 @@ The dataset exhibits class imbalance (approximately 78% non-defaults, 22% defaul
 - Model interpretation using SHAP values
 - Detailed performance evaluation and analysis
 
-## Future Improvements
+### Future Improvements
 
 Potential areas for improvement:
 - Handling class imbalance with techniques like SMOTE or class weighting
@@ -74,7 +74,3 @@ Potential areas for improvement:
 - Advanced feature engineering
 - Ensemble methods (stacking, blending)
 - Bayesian optimization for hyperparameter tuning
-
-## License
-
-This project is for educational and portfolio purposes.
